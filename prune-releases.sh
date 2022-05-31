@@ -9,10 +9,10 @@ function usage()
 {
     echo "$0"
     echo "    -h --help"
-    echo '    --max-releases-to-keep=10'
+    echo '    --max-releases-to-keep=6'
     echo '    --older-than="4 weeks ago"                  <GNU date formatted date string>'
-    echo '    --helm-release-filter="^feature-.+-web$"    <Helm release regex filter>'
-    echo '    --namespace-filter="^feature-.+"            <Namespace regex filter>'
+    echo '    --helm-release-filter="^systematic-eval"    <Helm release regex filter>'
+    echo '    --namespace-filter="^sector-data-engineering-dev"            <Namespace regex filter>'
     echo '    --helm-release-negate-filter="-permanent$"  <Negated Helm release regex filter>'
     echo '    --namespace-negate-filter="-permanent$"     <Negated Namespace regex filter>'
     echo '    --dry-run'
